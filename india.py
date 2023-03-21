@@ -411,7 +411,7 @@ def passx():
     print(f"{RED}[01] {WHITE}AUTO PASS 7 DIGITS         {GREEN}[FASTEST]")
     print(f"{RED}[02] {WHITE}AUTO PASS 7 AND 11 DIGITS  {GREEN}[FAST]")
     print(f"{RED}[03] {WHITE}AUTO ULTIMATE PASS         {GREEN}[NORMAL]")
-    print(f"{RED}[03] {WHITE}India Password             {GREEN}[India]
+    print(f"{RED}[03] {WHITE}India Password             {GREEN}[India]")
     print(f"\033[1;91m====================================================")
     Ahsan = input("[√] CHOOSE : ")
     if Ahsan in ["1","01"]:
@@ -637,7 +637,7 @@ def pass4():
     print(f' {GREEN}[!] Indian SIM CODES : {Y}+926264, +928306, +928305, +929163')
     print(f' {GREEN}[!]               : {T}+929327, +927726, +929549')
     linex()
-    print(f"\x1b[97m[\033[37;41mBEST CODE FOR PAK 6264 / 8306 / 8305 / 9163 /9327   \033[0;m]")
+    print(f"\x1b[97m[\033[37;41mBEST CODE FOR PAK +926264 / +928306 / +928305 / +929163 / +929327   \033[0;m]")
     linex()
     code = input(' PUT CODE : ')
     os.system("clear")
@@ -652,7 +652,7 @@ def pass4():
     with ThreadPool(max_workers=30) as manshera:    
         clear()
         tl = str(len(user))
-        print(f" {WHITE}TOTAL IDZ             : {BLUE}["+tl+"] ~> P1   ")
+        print(f" {WHITE}TOTAL IDZ             : {BLUE}["+tl+"] ~> P5   ")
         print(f" {WHITE}USER NAME             : {BLUE}"+NameX)
         print(f" {WHITE}NUMBER YOU PUT        : {YELLOW}"+code)
         print(f" {WHITE}TO STOP PROCESS PRESS Ctrl + Z ")
